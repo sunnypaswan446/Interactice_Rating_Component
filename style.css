@@ -1,0 +1,123 @@
+ * {
+  margin: 0;
+  padding: 0%;
+}
+body{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background-color: #1d1d36;;
+}
+.container {
+  width: 300px;
+  padding: 10px;
+  background-color:rgb(30, 30, 37);
+  border-radius: 10px;
+  opacity: .95;
+  color: white;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  box-shadow: 0px 0px 20px rgb(0, 0, 0);
+}
+.star_image{
+background-color: #48494c79;
+width: fit-content;
+padding: 2px;
+border-radius: 50%;
+}
+.title {
+  color: white;
+  font-size: 1.2rem;
+  font-weight: bold;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  margin: 10px;
+}
+
+.description{
+  color: gray;
+  text-align: justify;
+  padding: 10px;
+}
+.star_container{
+  display: flex;
+  flex-direction: row;
+  column-gap: 18px;
+  padding: 15px;
+  justify-content: center;
+  align-content: center;
+}
+
+.star{
+  display: flex;
+  background-color: #48494c79;      
+  padding: 12px 17px;
+  border-radius: 250px;
+  border: none;
+  font-weight: bold;
+}
+
+.star:hover{
+  color: white;
+  background-color: #fb7413;
+  opacity: 1;
+}
+
+.star:focus{
+  background-color: rgb(196, 188, 188);
+  color: white;
+  border-radius: none;
+  font-weight: bolder;
+}
+.rateagain, .submitbutton{
+  width: 90%;
+  height: 35px;
+  color: black;
+  font-weight: bold;
+  background-color: hsl(25, 100%, 54%);
+  border-radius: 20px;
+  border: none;
+  margin: 16px;
+  font-size: medium;    
+  cursor: pointer;  
+}
+
+button:hover
+{
+  color: hsl(25, 97%, 53%);
+  background-color: white;
+}
+
+.thank-you{
+  width: 300px;
+  padding: 10px;
+  background-color:rgb(30, 30, 37);
+  border-radius: 10px;
+  opacity: .95;
+  text-align: center;
+  color: white;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  box-shadow: 0px 0px 20px rgb(0, 0, 0);
+  
+}
+
+.thanks-img{
+  width: 250px;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+}
+.rate{
+  color: #fb7413;
+  background-color:rgb(30, 30, 37);
+  border-radius: 50px;
+  box-shadow: 0px 0px 10px black;
+  padding: 5px 10px;
+  display: inline-block;
+}
+.hide{
+   display: none; 
+} 
+
+img{
+  padding: 12px 12px;
+}
